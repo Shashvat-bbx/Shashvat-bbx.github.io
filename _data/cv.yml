@@ -21,7 +21,7 @@
   type: time_table
   contents:
     - title: Bachelor of Technology
-      institution: Delhi Technological University
+      institution: "<a href='http://dtu.ac.in/'>Delhi Technological University</a>"
       location: Delhi, India
       url: http://dtu.ac.in/
       area: Computer Science Engineering
