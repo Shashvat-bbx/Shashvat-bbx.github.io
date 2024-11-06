@@ -22,19 +22,24 @@
   contents:
     - title: Bachelor of Technology
       institution: Delhi Technological University
+      location: Delhi, India
+      url: http://dtu.ac.in/
+      area: Computer Science Engineering
       year: 2022 - 2026
       description:
-        - Coursework: Machine Learning, Data Structures and Algorithms, Object-Oriented Programming, Discrete Maths, Operating Systems, Database Management Systems, Computer Architecture, Multimodal Data Processing.       
+        - Coursework: Data Structures and Algorithms, Machine Learning, Multimodal Data Analysis, Object-Oriented Programming, Discrete Maths, Operating Systems, Database Management Systems.
         - title: Projects
           contents:
             - Developed an advanced ML/DL stacking ensemble model for Soil Organic Carbon prediction at Samsung Lab DTU.
             - Created a predictive modeling pipeline for e-commerce with hybrid sampling and encoding techniques.
+
     - title: School
       institution: Delhi Public School, Rohini
       year: 2008 - 2022
       description:
         - Coursework: Physics, Math, Computer Science, and Music
         - Achievements: Scored 99 percentile in JEE Mains 2022
+
 
 
 - title: Experience
