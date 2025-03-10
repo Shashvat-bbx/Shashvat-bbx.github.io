@@ -47,7 +47,7 @@
   contents:
     - title: AI/ML Research Intern
       Company: Samsung Lab, DTU
-      year: Sept 2023 – Feb 2024
+      year: 09/2023 – 02/2024
       description:
         - Developed advanced ML/DL stacking ensemble models for Soil Organic Carbon (SOC) prediction using hyperspectral satellite imagery data.
         - Employed noise reduction filters and dimensionality reduction techniques to optimize data processing and model performance.
@@ -55,7 +55,7 @@
 
     - title: AI/ML Researcher
       Company: AIMS-DTU
-      year: April 2023 – October 2024
+      year: 04/2023 – 10/2024
       description:
         - Worked on multiple AI/ML research projects, including:
           - Audio-based Machine Fault Diagnosis using Hybrid Feature Extraction and Ensemble Learning.
@@ -66,7 +66,7 @@
 
     - title: Data Science Intern
       Company: CEI India
-      year: July 2023 – Sept 2023
+      year: 07/2023 – 09/2023
       description:
         - Worked on data science projects guided by the Managing Director, Mr. Amarindra Singh.
         - Applied data processing, cleansing, and visualization techniques using Python, Pandas, Matplotlib, and Seaborn.
@@ -74,7 +74,7 @@
 
     - title: Software Developer Intern
       Company: Grain Analytics
-      year: April 2024 – June 2024
+      year: 04/2024 – 06/2024
       description:
         - Designed and developed the frontend and backend application for Grain Analytics official website using Next.js (React framework) and Tailwind CSS, enhancing user experience and brand consistency.
         - Utilized Git for version control and deployed the application on AWS.
