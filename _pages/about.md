@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: <a href='#'>Affiliations</a>. Carpe Diem
 
 profile:
   align: right
@@ -16,8 +16,8 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I’m a third-year Computer Engineering student at Delhi Technological University (DTU) with a strong interest in Machine Learning and Artificial Intelligence. Over the past few years, I’ve worked on various research projects and internships, exploring how AI can solve real-world problems. From developing models for online exam proctoring to working on predictive analytics, I enjoy tackling challenges that push me to learn and improve. Along the way, I’ve published research, participated in competitions, and collaborated with people who share the same curiosity for AI and technology.  
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+Outside of academics, I’ve been passionate about beatboxing for almost a decade now—it started as a fun hobby and turned into something I genuinely enjoy. I also love experimenting with different interests and picking up new skills whenever I get the chance. Whether it’s exploring AI, music, or something completely unrelated, I enjoy learning and trying new things. I believe in keeping a balance between work and fun, and I’m always excited about new opportunities that allow me to grow in different ways.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+
