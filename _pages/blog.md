@@ -28,7 +28,7 @@ pagination:
     <h2>{{ site.blog_description }}</h2>
   </div>
   {% endif %}
-
+<!-- 
 {% if site.display_tags and site.display_tags.size > 0 or site.display_categories and site.display_categories.size > 0 %}
 
   <div class="tag-category-list">
@@ -191,6 +191,6 @@ pagination:
 
 {% if page.pagination.enabled %}
 {% include pagination.liquid %}
-{% endif %}
+{% endif %} -->
 
 </div>

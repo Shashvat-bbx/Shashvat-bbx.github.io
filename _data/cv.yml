@@ -2,18 +2,18 @@
   type: map
   contents:
     - name: Full Name
-      value: Shashvat Singhal
-    - name: Date of Birth
-      value: 15th December 2004
+      value: Shashvat Singhal    
     - name: Languages
       value: English, Hindi
     - name: Email
-      value: Shashvat990@gmail.com
-    - name: Phone
-      value: +91 9582724000
+      value: Shashvat990@gmail.com   
     - name: LinkedIn
       value: https://www.linkedin.com/in/shashvat-singhal/
-
+    - name: GitHub
+      value:
+    - name: Google Scholar
+      value: https://scholar.google.com/citations?user=2b1c74gAAAAJ&hl=en
+ 
 
 
 
@@ -27,7 +27,13 @@
       area: Computer Science Engineering
       year: 2022 - 2026
       description:
-        - Coursework: Data Structures and Algorithms, Machine Learning, Multimodal Data Analysis, Object-Oriented Programming, Discrete Maths, Operating Systems, Database Management Systems.
+        - title: Coursework
+          contents:
+            - Machine Learning, 
+            - Artificial Intelligence
+            - Data Structures and Algorithms
+            - Computer Vision
+            - Natural Language Processing        
         - title: Projects
           contents:
             - Developed an advanced ML/DL stacking ensemble model for Soil Organic Carbon prediction at Samsung Lab DTU.
@@ -37,98 +43,116 @@
       institution: Delhi Public School, Rohini
       year: 2008 - 2022
       description:
-        - Coursework: Physics, Math, Computer Science, and Music
-        - Achievements: Scored 99 percentile in JEE Mains 2022
+        -title: Coursework
+        contents:
+            - Physics, Math, Computer Science, and Music
+    
+        -title: Achievements
+        contents:
+            - Scored 99 percentile in JEE Mains 2022
+            - Achieved 96% in CBSE Class 12th Board Exams (2022)            
+ 
 
 
 
 - title: Experience
   type: time_table
   contents:
+    - title: AI Research Engineer
+      institution: Massachusetts Institute of Technology — Computer Science and Artificial Intelligence Laboratory (MIT-CSAIL)
+      year: 07/2025 – Present
+      description:
+        - Working under the mentorship of Prof. Manolis Kellis on free-form knowledge graph generation using large language models.
+        - Developed a custom entity aggregation algorithm leveraging pattern matching and structured LLM outputs, improving efficiency and performance by 200×.
+        - Contributed frontend enhancements alongside backend knowledge graph optimizations.
+
+    - title: Technical Intern
+      institution: Makers Lab, Tech Mahindra
+      year: 05/2025 – 07/2025
+      description:
+        - Contributed to the flagship Indus project (India’s LLM) by optimizing file processing pipelines using multithreading, async I/O, and semaphores.
+        - Performed supervised fine-tuning of Indus 2.0 using PEFT and LoRA techniques, achieving a 30% model accuracy improvement.
+        - Researched agentic and MCP integration strategies to enhance Indus’s capabilities using the LangChain framework.
+
+    - title: Software Developer Intern
+      institution: Grain Analytics
+      year: 04/2024 – 06/2024
+      description:
+        - Designed and developed Grain Analytics’ official website frontend using Next.js and Tailwind CSS, improving brand consistency and user experience.
+        - Provided technical inputs for integrating AI and analytics solutions into the product stack.
+        - Collaborated with cross-functional teams to support product development and deployment.
+
     - title: AI/ML Research Intern
-      Company: Samsung Lab, DTU
+      institution: Samsung Lab
       year: 09/2023 – 02/2024
+      description:
+        - Developed advanced ensemble models for Soil Organic Carbon (SOC) prediction using hyperspectral satellite imagery.
+        - Applied noise filtering and dimensionality reduction methods to improve performance, achieving state-of-the-art accuracy.
+        - Published research paper in IEEE ARIIA-2024 conference and received the Best Paper Award.
+
+    - title: Data Science Intern
+      institution: CEI India
+      year: 07/2023 – 09/2023
+      description:
+        - Worked on multiple data-driven projects, applying data processing, cleansing, and visualization using Python, Pandas, Matplotlib, and Seaborn.
+        - Implemented machine learning algorithms using Scikit-learn for trend analysis and predictive modeling.
+
+    - title: AI Intern
+      institution: Mathsloyal
+      year: 05/2023 – 07/2023
+      description:
+        - Conducted research and development to create an LLM-based application specialized in solving complex math problems, with a focus on MathBERT. Led efforts in integrating the solution with the existing website, ensuring seamless functionality and enhanced user experience.
+- title: Honors and Awards
+  type: time_table
+  contents:
+    - title: Best Paper Award, IEEE International Conference on Computing, Power and Communication Technologies (GUCON 2023)
+      year: 2025
+      description:
+        - Awarded for ARIIA
+    - title: Grand Finalist, Smart India Hackathon 2024
+      year: 2024     
       description:
         - Developed advanced ML/DL stacking ensemble models for Soil Organic Carbon (SOC) prediction using hyperspectral satellite imagery data.
         - Employed noise reduction filters and dimensionality reduction techniques to optimize data processing and model performance.
         - Executed image processing tasks such as stitching, clipping, and extraction to derive high-quality multispectral data using ArcGIS.
 
-    - title: AI/ML Researcher
-      Company: AIMS-DTU
-      year: 04/2023 – 10/2024
+    
+    - title: National Winner, Smart India Hackathon 2023
+      year: 2023      
       description:
-        - Worked on multiple AI/ML research projects, including:
-          - Audio-based Machine Fault Diagnosis using Hybrid Feature Extraction and Ensemble Learning.
-          - Autonomous Proctoring and Cheating Detection for Online Examinations using Knowledge Distillation and Multi-Task Learning.
-          - Predictive Modeling for E-Commerce with hybrid sampling, feature engineering, and ensemble methods.
-        - Authored research papers based on these projects, some under review for international conferences and journals.
-        - Conducted research under the mentorship of Prof. Dinesh K. Vishwakarma, noted among the top 2% influential researchers globally.
+        - Developed advanced ML/DL stacking ensemble models for Soil Organic Carbon (SOC) prediction using hyperspectral satellite imagery data.
+        - Employed noise reduction filters and dimensionality reduction techniques to optimize data processing and model performance.
+        - Executed image processing tasks such as stitching, clipping, and extraction to derive high-quality multispectral data using ArcGIS.
 
-    - title: Data Science Intern
-      Company: CEI India
-      year: 07/2023 – 09/2023
+    - title: CCD Winner      
+      year: 2023
       description:
-        - Worked on data science projects guided by the Managing Director, Mr. Amarindra Singh.
-        - Applied data processing, cleansing, and visualization techniques using Python, Pandas, Matplotlib, and Seaborn.
-        - Implemented machine learning algorithms with Scikit-learn to analyze and interpret data trends.
-
-    - title: Software Developer Intern
-      Company: Grain Analytics
-      year: 04/2024 – 06/2024
-      description:
-        - Designed and developed the frontend and backend application for Grain Analytics official website using Next.js (React framework) and Tailwind CSS, enhancing user experience and brand consistency.
-        - Utilized Git for version control and deployed the application on AWS.
-        - Contributed to product development by integrating AI and analytics features and providing feedback on functionality.
+          - Worked on multiple AI/ML research projects, including
+          
 
 
+# - title: Academic Interests
+#   type: nested_list
+#   contents:
+#     - title: Machine Learning and Artificial Intelligence
+#       items:
+#         - Focused on developing advanced ML/DL models for predictive analytics, classification, and ensemble learning.
+#         - Interested in applications of AI in computer vision, natural language processing, and generative AI.
 
-- title: Open Source Projects
-  type: time_table
-  contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+#     - title: Data Science and Statistical Analysis
+#       items:
+#         - Skilled in data processing, visualization, and feature engineering for insightful analytics.
+#         - Passionate about using statistical methods to extract meaningful patterns and trends from complex datasets.
 
-- title: Honors and Awards
-  type: time_table
-  contents:
-    - year: 2023
-      items:
-        - National Winner, Smart India Hackathon 2023
-          - Winner in the Student Innovation for Transport and Logistics category. Developed a multi-component traffic mitigation system including a custom algorithm for adaptive traffic lights, advanced computer vision-based traffic monitoring, a smart parking solution, and a conceptualized drone-based delivery system.
-        - 2nd Runner-Up, CCD Competition at Cognizance 2023
-          - Competed in the Cloud Coverage Determination (CCD) competition at IIT Roorkee's Cognizance 2023, focusing on time-series forecasting for weather data and advanced modeling with LSTM and TDNN, securing the 2nd Runner-Up position.
+#     - title: Large Language Models (LLMs) and NLP
+#       items:
+#         - Researching the applications of LLMs for various tasks such as question answering, summarization, and content generation.
+#         - Experimenting with the integration of LLMs into real-world applications, including educational tools and automated systems.
 
-
-- title: Academic Interests
-  type: nested_list
-  contents:
-    - title: Machine Learning and Artificial Intelligence
-      items:
-        - Focused on developing advanced ML/DL models for predictive analytics, classification, and ensemble learning.
-        - Interested in applications of AI in computer vision, natural language processing, and generative AI.
-
-    - title: Data Science and Statistical Analysis
-      items:
-        - Skilled in data processing, visualization, and feature engineering for insightful analytics.
-        - Passionate about using statistical methods to extract meaningful patterns and trends from complex datasets.
-
-    - title: Large Language Models (LLMs) and NLP
-      items:
-        - Researching the applications of LLMs for various tasks such as question answering, summarization, and content generation.
-        - Experimenting with the integration of LLMs into real-world applications, including educational tools and automated systems.
-
-    - title: Computer Vision
-      items:
-        - Experienced in implementing computer vision techniques for tasks like image segmentation, object detection, and gesture recognition.
-        - Interested in applying computer vision to autonomous systems and advanced monitoring solutions.
-
-
-- title: Other Interests
-  type: list
-  contents:
-    - <u>Hobbies:</u> Beatboxing, Music, etc.
-
+#     - title: Computer Vision
+#       items:
+#         - Experienced in implementing computer vision techniques for tasks like image segmentation, object detection, and gesture recognition.
+#         - Interested in applying computer vision to autonomous systems and advanced monitoring solutions.
   
 - title: Volenteering experience
   type: nested_list
@@ -141,3 +165,10 @@
       items:
         - Volunteered to create accessible resources, including e-books and videos, to provide fundamental computer science education for underprivileged students.
         
+
+
+- title: Other Interests
+  type: list
+  contents:
+    - <u>Hobbies:</u> Beatboxing, Music, etc.
+

@@ -5,7 +5,9 @@ github_users:
 repo_description_lines_max: 5
 
 github_repos:
+  - Shashvat-bbx/DTU_Bot
+  
   - Shashvat-bbx/Video_transcriber_summarizer
   - Shashvat-bbx/10-Filing-Extractor
-  - Shashvat-bbx/10-Filing-Extractor
+
   
