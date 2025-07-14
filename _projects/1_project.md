@@ -1,10 +1,11 @@
 ---
 layout: page
-title: project 1
+title: Advanced AI Complaint Management System for Indian Railways (SIH 2024)
 description: with background image
 img: assets/img/12.jpg
 importance: 1
-category: work
+category: work  # you can either write work or fun here.
+# redirect: https://unsplash.com you can add a link over here and then clicking on the card it will take yo uto that website
 related_publications: true
 ---
 
@@ -17,7 +18,7 @@ To give your project a background in the portfolio page, just add the img tag to
     ---
     layout: page
     title: project
-    description: a project with a background image
+    description: Smart India Hackathon Finals Project
     img: /assets/img/12.jpg
     ---
 

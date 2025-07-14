@@ -1,4 +1,4 @@
----
+<!-- ---
 layout: default
 permalink: /blog/
 title: blog
@@ -28,6 +28,8 @@ pagination:
     <h2>{{ site.blog_description }}</h2>
   </div>
   {% endif %}
+
+<!-- THE CODE AFTER THIS HAS BEEN COMMENTED OUT, IF YOU WANT TO ADD BLOGS UNCOMMENT THIS CODE (BY SHASHVAT) -->
 <!-- 
 {% if site.display_tags and site.display_tags.size > 0 or site.display_categories and site.display_categories.size > 0 %}
 
@@ -193,4 +195,4 @@ pagination:
 {% include pagination.liquid %}
 {% endif %} -->
 
-</div>
+</div> -->
