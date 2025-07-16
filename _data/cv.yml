@@ -34,24 +34,22 @@
             - Data Structures and Algorithms
             - Computer Vision
             - Natural Language Processing        
-        - title: Projects
+        - title: Research and Societies
           contents:
-            - Developed an advanced ML/DL stacking ensemble model for Soil Organic Carbon prediction at Samsung Lab DTU.
-            - Created a predictive modeling pipeline for e-commerce with hybrid sampling and encoding techniques.
-
+            - Did Research work under Prof Dinesh K Vishwakarma and Dr. Divyashikha Sethia at Samsung Lab DTU. 
+            - Have been an active member of AIMS-DTU (AI and Machine Learning Society of DTU) and where I mentors over 500 undergrad students in AI/ML, organised, participated and mentored in various hackathons, workshops and techfests. 
     - title: School
       institution: Delhi Public School, Rohini
       year: 2008 - 2022
       description:
-        -title: Coursework
-        contents:
+        - title: Coursework
+          contents:
             - Physics, Math, Computer Science, and Music
-    
-        -title: Achievements
-        contents:
+
+        - title: Achievements
+          contents:
             - Scored 99 percentile in JEE Mains 2022
-            - Achieved 96% in CBSE Class 12th Board Exams (2022)            
- 
+            - Achieved 96% in CBSE Class 12th Board Exams (2022)
 
 
 
@@ -67,15 +65,15 @@
         - Contributed frontend enhancements alongside backend knowledge graph optimizations.
 
     - title: Technical Intern
-      institution: Makers Lab, Tech Mahindra
+      institution: <a href='https://www.techmahindra.com/makers-lab/'>Makers Lab, Tech Mahindra</a>
       year: 05/2025 – 07/2025
       description:
-        - Contributed to the flagship Indus project (India’s LLM) by optimizing file processing pipelines using multithreading, async I/O, and semaphores.
+        - Contributed to the flagship <a href="https://www.techmahindra.com/makers-lab/indus-project/" > Indus project </a> (India’s LLM) by optimizing file processing pipelines using multithreading, async I/O, and semaphores.
         - Performed supervised fine-tuning of Indus 2.0 using PEFT and LoRA techniques, achieving a 30% model accuracy improvement.
         - Researched agentic and MCP integration strategies to enhance Indus’s capabilities using the LangChain framework.
 
     - title: Software Developer Intern
-      institution: Grain Analytics
+      institution: <a href='https://www.grainanalytics.ca/'>Grain Analytics</a>
       year: 04/2024 – 06/2024
       description:
         - Designed and developed Grain Analytics’ official website frontend using Next.js and Tailwind CSS, improving brand consistency and user experience.
@@ -105,29 +103,27 @@
 - title: Honors and Awards
   type: time_table
   contents:
-    - title: Best Paper Award, IEEE International Conference on Computing, Power and Communication Technologies (GUCON 2023)
+    - title: Best Paper Award at IEEE International Conference (ARIIA-2024)
       year: 2025
       description:
-        - Awarded for ARIIA
-    - title: Grand Finalist, Smart India Hackathon 2024
+        - Received the Best Paper Award at the 2024 IEEE International Conference on Augmented Reality, Intelligent System, and Industrial Automation ARIIA-2024, for our paper, DSeP-xNet A Feature Optimized Ensemble Framework for Hyperspectral-Based Soil Organic Carbon Prediction. The conference was held from December 20th to 21st, 2024, and was jointly organized by the Manipal Institute of Technology, the University of Malta, and the University of Warwick.
+        
+    - title: Grand Finalist Smart India Hackathon 2024
       year: 2024     
       description:
-        - Developed advanced ML/DL stacking ensemble models for Soil Organic Carbon (SOC) prediction using hyperspectral satellite imagery data.
-        - Employed noise reduction filters and dimensionality reduction techniques to optimize data processing and model performance.
-        - Executed image processing tasks such as stitching, clipping, and extraction to derive high-quality multispectral data using ArcGIS.
+        - Among the top 5 teams in the country in the finals, we developed an innovative AI-powered Complaint Management Framework for Indian Railways, designed to transform the handling of customer grievances. Key features include a multilingual WhatsApp chatbot for two-click complaint registration, department categorization for complaint routing with 99% accuracy using Llama and few-shot classification, a custom Learning-to-Rank pipeline for prioritization, NLP-driven aggregation of complaints with shared contexts, and dynamic workload-based routing. We successfully created an end-to-end production-grade system, ensuring seamless and efficient operations.
 
     
     - title: National Winner, Smart India Hackathon 2023
       year: 2023      
       description:
-        - Developed advanced ML/DL stacking ensemble models for Soil Organic Carbon (SOC) prediction using hyperspectral satellite imagery data.
-        - Employed noise reduction filters and dimensionality reduction techniques to optimize data processing and model performance.
-        - Executed image processing tasks such as stitching, clipping, and extraction to derive high-quality multispectral data using ArcGIS.
+        - Winner in the Student Innovation for Transport and Logistics. Developed a multi-component traffic mitigation system, including a custom algorithm for adaptive traffic lights and advanced computer vision-based traffic monitoring. Also created a smart parking solution and conceptualized drone-based delivery systems.
 
-    - title: CCD Winner      
+
+    - title:   2nd Runner-Up, CCD Competition at Cognizance 2023
       year: 2023
       description:
-          - Worked on multiple AI/ML research projects, including
+          - Competed in the national-level CCD competition (Cloud Coverage Determination) at Cognizance 2023, focused on time-series forecasting for weather data at various intervals. Developed advanced time-series forecasting models, including LSTM and TDNN, combined with feature engineering and unsupervised segmentation for sky images. Our developed pipeline produced reliable and high accurate results, leading us to secure the 2nd Runner-Up position in the competition.
           
 
 
