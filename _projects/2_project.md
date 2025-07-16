@@ -4,7 +4,7 @@ title: Manim Educational Video Generator
 description: Agentic Manim Video Pipeline for Automated Educational Content
 img: assets/img/Manim_project_images/Manim_project_thumbnail.png
 importance: 2
-category: work
+category: fun
 related_publications: true
 ---
 
@@ -44,19 +44,18 @@ Given a video topic, a planning agent structures the content into multiple scene
 - **Step 4:** Individual scene videos are stitched together using FFmpeg.
 
 ---
-
-<div class="row justify-content-sm-center">
-  <video controls class="img-fluid rounded z-depth-1">
-  <source src="assets/video/Manim_output_video.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
-
-
+### Sample Output Scene Generated
+<div class="row justify-content-center">
+  <div class="col-sm-3"></div>
+    <video controls class="img-fluid rounded z-depth-1">
+        <source src="/assets/video/Manim_output_video.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+  
+  <div class="col-sm-3"></div>
 </div>
 
-<div class="caption">
-  Sample video generated
-</div>
+
 
 ---
 

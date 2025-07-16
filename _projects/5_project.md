@@ -1,80 +1,80 @@
 ---
 layout: page
-title: project 5
-description: a project with a background image
-img: assets/img/1.jpg
-importance: 1
-category: fun
+title: DTU_Bot — Intelligent PDF Query System for DTU
+description: Smart India Hackathon-Style AI System for DTU Academic Document Queries
+img: assets/img/DTU_bot_thumbnail.png
+importance: 2
+category: work
+related_publications: true
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+### DTU_Bot — Intelligent PDF Query System for DTU
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+An end-to-end AI-powered system for scraping, parsing, and conversational querying of official notices, syllabi, and documents from **Delhi Technological University (DTU)**.
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+---
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
+### Key Features:
+
+- **Automated Scraping:**  
+  Extracts PDF links from DTU’s official notices and pages.
+
+- **Bulk Downloading & Metadata Mapping:**  
+  Downloads PDFs and tracks their sources.
+
+- **OCR & Parsing:**  
+  Extracts text from both text-based and image-based PDFs.
+
+- **Vector Store for Semantic Search:**  
+  Embeds documents using HuggingFace models with FAISS indexing.
+
+- **Conversational RAG QA:**  
+  Users can query DTU documents using natural language and receive context-rich, cited answers powered by LLMs.
+
+- **Modular Pipeline Design:**  
+  Each system stage is a separate, reusable component.
+
+---
+
+### Project Flowchart
+
+
+<div class="row justify-content-center">
+  <div class="col-sm-4"></div>
+  <div class="col-sm-4 d-flex justify-content-center">
+    {% include figure.liquid loading="eager" path="assets/img/DTU_bot_flowchart.png" title="Project Flowchart" class="img-fluid rounded z-depth-1" style="max-width: 250px;" %}
+  </div>
+  <div class="col-sm-4"></div>
 </div>
 <div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
+  Left: Automated PDF Scraping. Middle: OCR Pipeline. Right: Live Conversational QA.
 </div>
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+---
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
+### System Workflow:
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
+- **Step 1:** Scrape PDF links from official web pages.
+- **Step 2:** Download PDFs and map metadata.
+- **Step 3:** Perform OCR and text extraction.
+- **Step 4:** Embed extracted content into a vector store.
+- **Step 5:** Enable real-time conversational querying using LLM-powered RAG.
 
-{% raw %}
+---
 
-```html
 <div class="row justify-content-sm-center">
   <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    <video controls class="img-fluid rounded z-depth-1">
+      <source src="/assets/video/DTU_bot_demo.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
   </div>
 </div>
-```
 
-{% endraw %}
+<div class="caption">
+  Live demo of DTU_Bot querying DTU academic documents.
+</div>
+
+---
+
+_This project brings together web scraping, computer vision, vector search, and large language models into a single intelligent academic assistant for Delhi Technological University._
